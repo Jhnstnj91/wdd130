@@ -60,3 +60,6 @@ article img {
     height: auto;
     margin: 10px;
 }
+footer {
+    text-decoration: none;
+}
