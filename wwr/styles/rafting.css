@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+:root {
+    --primary-color: #ff595e;
+    --secondary-color: #14bdeb;
+    --accent1-color: #52489c;
+    --accent2-color: #f7f6c5;
+
+    --heading-font: 'Roboto', open-sans;
+    --paragraph-font: 'Roboto', open-sans;
+
+    --nav-background-color: #ff595e;
+    --nav-link-color: #14bdeb;
+    --nav-hover-link-color: #52489c;
+    --nav-hover-background-color: #f7f6c5;
+}
