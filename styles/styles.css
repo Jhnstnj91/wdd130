@@ -3,25 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 nav {
-    background-color: #BBB;
-    margin: 0;
-    padding: 0;
+    background-color: steelblue;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
-    color: #2016ED;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 main img {
     width: 150px;
     height: auto;
     float:right;
 }
-
-main {
-    max-width: 840px;
-}
 h1 {
     font-family: 'Open Sans', sans-serif;
+    border-bottom: solid steelblue;
 }
 aside {
     width: 20rem;
