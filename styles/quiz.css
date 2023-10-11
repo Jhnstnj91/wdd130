@@ -3,7 +3,7 @@ body {
 }
 form {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 100%;
     border: 1px solid #BBB;
     background-color: #DDD;
     padding: 10px;
