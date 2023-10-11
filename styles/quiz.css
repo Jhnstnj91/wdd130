@@ -1,0 +1,17 @@
+body {
+    max-width: 450px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1;
+    border: 1px solid #BBB;
+    background-color: #DDD;
+    padding: 10px;
+}
+.label {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.input {
+    margin-bottom: 15px;
+}

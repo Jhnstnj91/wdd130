@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="This is a quiz form for the week 5 assignement for Josh Johnston's WDD 130 Class at BYU-I">
+        <meta name="author" content="Joshua Johnston">
+        <title>Josh Johnston | WDD 130</title>
+        <link rel="stylesheet" href ="styles/quiz.css">
+    </head>
+    <body>      
+        <main>
+            <h2>Basis HTML and CSS Quiz</h2>
+            <form>
+                <label for="q1" class="label">1. What does the acronym CSS stand for?</label>
+                <input type="text" name="q1" id="q1" class="input">
+
+                <label for="q2" class="label">2. How are ID and Class attributes selected in in CSS?</label>
+                <textarea name="q2" id ="q2" rows="5" class="input"></textarea>
+                
+                <label for="q3" class="label">3. Which of the following is a CSS comment?</label>
+                <select name="q3" id="q3" class="input">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="answer1">answer1</option>
+                    <option value="answer2">answer2</option>
+                    <option value="answer3">answer3</option>
+                </select>
+                
+                <label for="q4" class="label">4. What is the bottom margin given this declaration?</label>
+                <p>margin: 10px 5px 15px;</p>
+                <input type="number" name="q4" id="q4" class="input">
+
+                <input type="submit" value="Submit Quiz" id="submit-button">
+            </form>
+        </main>
+    </body>
+</html>
