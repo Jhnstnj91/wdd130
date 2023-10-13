@@ -116,6 +116,10 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(5, 20%);
 }
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
 footer {
     text-decoration: none;
     display: grid;
@@ -130,4 +134,42 @@ footer img {
 }
 nav a {
     text-decoration: none;
+}
+form {
+    display: grid;
+    grid-template-columns: 100%;
+    border: 1px solid #BBB;
+    background-color: #DDD;
+    padding: 10px;
+}
+#submit-button {
+    padding: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+}
+.label {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.input {
+    margin-bottom: 15px;
+    padding: 4px;
+}
+.contact_section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    background-color: var(--accent2-color);
+    border: solid 2px #eee;
+}
+.contact_info {
+    justify-self: center;
+}
+.adventure {
+    background-color: var(--secondary-color);
+    border: solid 2px #eee;
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The contact us page provides contact information for the rafting company and also provides a way for a user to send us a message that we can respond to.">
+        <meta name="author" content="Josh Johnston">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href ="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Company Logo">
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html" id="current-tab">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Contact Us</h1>
+            <section class="contact_section">
+                <div class="contact_info">
+                    <p>525 S Center St, Rexburg, ID 83460</p>
+                    <p>Phone: 555-123-5555</p>
+                    <p>Email: <a href="mailto:info@rafting.com">info@rafting.com</a></p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.008215321715!2d-111.7830821!3d43.814189000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1697221184098!5m2!1sen!2sus"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="adventure employees">
+                <figure>
+                    <img src="images/jessica.jpg" alt="Photo of the tour guide Jessica">
+                    <figcaption>Jessica - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adam.jpg" alt="Photo of Adam, the Navigator">
+                    <figcaption>Adam - Navigator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/claire.jpg" alt="Photo of Claire, of front desk manager">
+                    <figcaption>Claire - Front Desk</figcaption>
+                </figure>
+            </section>
+            <form>
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" id="name" class="input">
+
+                <label for="email" class="label">Email</label>
+                <input type="text" name="email" id="email" class="input">
+
+
+                <div class='radio'>
+                    <input type="radio" id="general" name="inquiry_type" value="general">
+                    <label for="general">General Inquiry</label><br>
+                </div>
+                <div class='radio'>
+                    <input type="radio" id="reservation" name="inquiry_type" value="reservation">
+                    <label for="reservation">Reservation Inquiry</label><br>
+                </div>
+                <div class='radio'>
+                    <input type="radio" id="website" name="inquiry_type" value="website">
+                    <label for="website">Website Suggestion</label>
+                </div>
+
+                <label for="message" class="label">Message</label>
+                <textarea name="message" id="message" rows="5" class="input"></textarea>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                
+                <input type="submit" value="Submit" id="submit-button">
+            </form>
+
+        </main>
+        <footer>
+            <p>@2023, Rafting Rapids | Joshua Johnston <a href="images/wireframe.jpg" target="_blank">Wireframe Link</a></p>
+            <nav class="sociallink">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/x.png" alt="X(Twitter)">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
